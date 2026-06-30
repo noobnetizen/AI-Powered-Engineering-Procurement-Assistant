@@ -1,0 +1,28 @@
+# secrets - NEVER commit
+.env
+*.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# excel output files (optional - remove if you want to commit them)
+*_parts_cost.xlsx
+*_parts_cost_LIVE.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# logs
+*.log
